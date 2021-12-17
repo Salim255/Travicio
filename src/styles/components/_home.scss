@@ -45,6 +45,15 @@
                 width: 90.2%;
               }
         } 
+        @include respond(phone){
+            
+            width: 95%;
+            &:hover {
+                box-shadow: 0 1rem 2rem rgba($color:#998e8e, $alpha: 1); 
+                width: 95.5%;
+              }
+            
+        }
 
     }
     &__icon{
@@ -55,6 +64,7 @@
            font-size: 1.2rem;
            margin-left: .5rem;
         }
+       
     }
     &__input{
         flex: 1;
@@ -73,7 +83,12 @@
             color: rgb(192, 179, 179);
             font-size: 1.5rem;
         }
-      
+        @include respond(phone){
+            
+          
+            font-size: 1.7rem ;
+            
+        }
     }
     &__btn{
         border: none;

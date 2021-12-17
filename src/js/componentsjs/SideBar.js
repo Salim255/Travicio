@@ -28,11 +28,11 @@ const SideBar = () => {
                     <ul className="sidebar-nav__list">
                         <li className="sidebar-nav__item"><a className="sidebar-nav__link" href="#">home</a>
                         </li>
-                        <li className="sidebar-nav__item"><a className="sidebar-nav__link" href="#">home</a>
+                        <li className="sidebar-nav__item"><a className="sidebar-nav__link" href="#">workers</a>
                         </li>
-                        <li className="sidebar-nav__item"><a className="sidebar-nav__link" href="#">home</a>
+                        <li className="sidebar-nav__item"><a className="sidebar-nav__link" href="#">about</a>
                         </li>
-                        <li className="sidebar-nav__item"><a className="sidebar-nav__link" href="#">home</a>
+                        <li className="sidebar-nav__item"><a className="sidebar-nav__link" href="#">contact</a>
                         </li>
                     </ul>
             </nav>

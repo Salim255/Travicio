@@ -4,6 +4,7 @@ import Header from './js/componentsjs/Header';
 import Shape from './js/componentsjs/Shape';
 import Footer from './js/componentsjs/Footer';
 import SideBar from './js/componentsjs/SideBar';
+import Datafetching from './js/componentsjs/Datafetching';
 function App() {
   return (
     <div className="App">
@@ -11,6 +12,7 @@ function App() {
       <SideBar/>
       <Shape/>
       <Home />
+      <Datafetching/>
       <Footer/>
     </div>
   );
