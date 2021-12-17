@@ -47,10 +47,10 @@
         } 
         @include respond(phone){
             
-            width: 95%;
+            width: 90%;
             &:hover {
                 box-shadow: 0 1rem 2rem rgba($color:#998e8e, $alpha: 1); 
-                width: 95.5%;
+                width: 90.5%;
               }
             
         }
