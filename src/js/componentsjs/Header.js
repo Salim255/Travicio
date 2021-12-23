@@ -6,7 +6,7 @@ const Header = () => {
            <div className="header">
                 <ul className="header__list">
                     <li className="header__item"><a href="#" className="header__link">travicio</a></li >
-                    <li className="header__item"><a href="#" className="header__link">workers</a></li>
+                
                     <li className="header__item"><a href="#" className="header__link">about us</a></li>
                     <li className="header__item"><a href="#" className="header__link">contact</a></li>
                 </ul>
